@@ -2,7 +2,7 @@
 
 The objective of this assignment was to choose an interesting data set and design and implement a novel visualisation for it.
 
-My Novel Visualisation shows data surrounding the current Covid-19 pandemic, focusing primarily on representing the number of cases in the world (for all available country data) in five different ways across two main visualisations.
+My Novel Visualisation shows data surrounding the current Covid-19 pandemic, focusing primarily on representing the number of cases in the world (for all available country data) in 2020, in five different ways across two main visualisations.
 
 The project was completed using p5.js and GeoChart.
 
