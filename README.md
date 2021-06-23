@@ -6,6 +6,8 @@ My Novel Visualisation shows data surrounding the current Covid-19 pandemic, foc
 
 The project was completed using p5.js and GeoChart.
 
+The data set used for this project was taken from https://data.humdata.org/dataset/ecdc-covid-19.
+
 ### World Map
 
 The first graph in the visualisation shows a map of the world. Initially, the map will show the cumulative Covid-19 Case Data for each country in the year 2020. 
