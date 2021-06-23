@@ -34,7 +34,7 @@ As well as displaying the number of cases per country/continent, the indivudal c
 
 When a particular country is clicked, this will trigger the second graph: the Bar Chart. 
 
-The Bar Chart shows colour coded lines that represent the amount of daily Covid-19 cases for the selected country from the beginning of 2020 until 10th December (when this data was retrieved). 
+The Bar Chart shows colour coded lines that represent the amount of daily Covid-19 cases for the selected country from the beginning of 2020 until 10th December 2020 (when this data was retrieved). 
 
 The Bar Chart when USA is clicked:
 
