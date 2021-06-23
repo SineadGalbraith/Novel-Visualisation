@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sketch</title>
+    <title>Covid-19 Visualisation</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -13,7 +13,53 @@
   </head>
 
   <body>
-    <div id="regions_div" style="width: 1000px; height: 700px;"></div>
-    <script src="./sketch.js"></script>
+    <script>
+      function loadScript(url)
+      {    
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+      }
+    </script>
+    <h1 id="page_title"></h1>
+    <h2 id="map_title"></h2>
+    <div id="parent" style="position:relative;">
+      <div id="world_map"></div>
+    </div>
+    <div>
+      <input type="radio" id="countryBox">
+      <label id="byCountry">Country</label>
+      <input type="radio" id="continentBox">
+      <label id="byContinent">Continent</label>
+    </div>
+    <div>
+      <input type="radio" id="yearBox">
+      <label id="byYear">Year (2020)</label>
+      <input type="radio" id="monthsBox">
+      <label id="byMonths">Months</label>
+    </div>
+    <div id="monthsSlider"> 
+      <div id="slider">
+        <input id='months' type='range' min='1' max='12' value='1' step='1' class="n n5"/>
+      </div>
+      <div id="sliderLabels">
+        <label style="top: 60px; left: 695px">Jan</label>
+        <label style="top: 60px; left: 727px">Feb</label>
+        <label style="top: 60px; left: 753px">Mar</label>
+        <label style="top: 60px; left: 783px">Apr</label>
+        <label style="top: 60px; left: 812px">May</label>
+        <label style="top: 60px; left: 843px">Jun</label>
+        <label style="top: 60px; left: 875px">Jul</label>
+        <label style="top: 60px; left: 908px">Aug</label>
+        <label style="top: 60px; left: 935px">Sep</label>
+        <label style="top: 60px; left: 963px">Oct</label>
+        <label style="top: 60px; left: 993px">Nov</label>
+        <label style="top: 60px; left: 1020px">Dec</label>
+      </div>
+      <h2 id="graph_title"></h2>
+    </div>
+    <script src="./covidWorldMap.js"></script>
   </body>
 </html>

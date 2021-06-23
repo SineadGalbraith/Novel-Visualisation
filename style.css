@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#page_title {
+  font-family:Tahoma;
+  font-size:22px;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  font-family:Tahoma;
+  font-size:18px;
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+h3 {
+  font-family:Tahoma;
+  font-size:18px;
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+
+#graph_title {
+  top: 70px;
+  
+}
+
+input[type="radio"] {
+  width:25px; 
+  height:25px;
+  position: relative;
+}
+
+input[type="range"] {
+  position: relative;
+  top: 60px;
+  left: 700px;
+  width: 700px;
+}
+
+label {
+  font-family:Tahoma;
+  font-size:18px;
+  position: relative;
+  top: 15px;
+}
+
+#world_map {
+  position: relative;
+  top: 20px;
+  width: 2000px; 
+  height: 750px;
+}
+
+#individual_country {
+  width: 800px;
+  position: relative;
+  top: -600px;
+  left: 1200px;
+}
+
+#countryBox, #yearBox {
+  top: 50px;
+  left: 875px;
+}
+
+#byCountry, #byYear {
+  top: 45px;
+  left: 875px;
+}
+
+#continentBox {
+  top: 50px;
+  left: 975px;
+}
+
+#byContinent {
+  top: 45px;
+  left: 975px;
+}
+
+#monthsBox {
+  top: 50px;
+  left: 943px;
+}
+
+#byMonths {
+  top: 45px;
+  left: 943px;
+}
