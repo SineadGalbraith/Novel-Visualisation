@@ -52,4 +52,6 @@ The Bar Chart when South Africa is clicked:
   <img src="https://github.com/SineadGalbraith/Novel-Visualisation/blob/main/images/BarGraphSA.PNG" width="1000" height="300">
 </p>
 
-## Video Link
+## Video Demo
+
+A video demonstration of this visualisation can be found at: https://youtu.be/e7ulqec1Ibo
