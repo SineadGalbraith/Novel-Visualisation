@@ -38,5 +38,12 @@ The Bar Chart shows colour coded lines that represent the amount of daily Covid-
 
 The Bar Chart when USA is clicked:
 
+<p align="center">
+  <img src="https://github.com/SineadGalbraith/Novel-Visualisation/blob/main/images/BarGraphUSA.png" width="1000" height="300">
+</p>
 
 The Bar Chart when South Africa is clicked:
+
+<p align="center">
+  <img src="https://github.com/SineadGalbraith/Novel-Visualisation/blob/main/images/BarGraphSA.PNG" width="1000" height="300">
+</p>
