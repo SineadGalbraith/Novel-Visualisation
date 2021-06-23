@@ -20,10 +20,23 @@ Using the options show at the bottom of the map, a total of four subviews are av
  3. Country And Month
  4. Continent And Month
 
-When the month option is selected, a slider appears underneath displaying all of the months. The user can then slide this bar along to see the graph change for each month.
+When the month option is selected, a slider appears underneath displaying all of the months. The user can then slide this bar along to see the graph change for each month. For example, the image below shows the options bar selected as the month May for all countries. The map view has updated accordingly. 
 
 <p align="center">
-  <img src="https://github.com/SineadGalbraith/Novel-Visualisation/blob/main/images/OptionsBar.png" width="500" height="100">
+  <img src="https://github.com/SineadGalbraith/Novel-Visualisation/blob/main/images/OptionsBar.png" width="1000" height="450">
 </p>
 
+Due to a restriction in GeoChart, North and South America are represented as one continent in the visualisation when the continent option is selected.
+
 ### Bar Chart
+
+As well as displaying the number of cases per country/continent, the indivudal countries and continents are clickable on the world map above. 
+
+When a particular country is clicked, this will trigger the second graph: the Bar Chart. 
+
+The Bar Chart shows colour coded lines that represent the amount of daily Covid-19 cases for the selected country from the beginning of 2020 until 10th December (when this data was retrieved). 
+
+The Bar Chart when USA is clicked:
+
+
+The Bar Chart when South Africa is clicked:
